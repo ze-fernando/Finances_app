@@ -1,0 +1,142 @@
+body{
+    --total:#000;
+    overflow-y: auto;
+    background: linear-gradient(to right, #646464, #2b4497);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+h1{
+    position: absolute;
+    justify-content: center;
+}
+p{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    }
+#total{
+    color: var(--total);
+}
+#icon{
+color: #da0000;
+height: 4vh;
+width: 2vw;
+}
+.Container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Painel{
+    display: flex;
+    flex-direction: row;
+    background-color: #f0f8ff;
+    width: 85vw;
+    height: 30vh;
+    border-radius: 1em;
+    justify-content: center;
+}
+.Value{
+    background-color: #b3b3b393;
+    width: 15vw;
+    height: 10vh;
+    align-self: center;
+    margin: 0em 5vw 0em 5vw;
+    border-radius: 0.25em;
+    font-size: large;
+    color: #000;
+}
+.Name{
+    text-align: left;
+    margin-top: 0;
+    margin-left: 1vw;
+    color: #3d3d3d;
+    font-size: 15px;
+}
+.Money{
+    margin: 0 0 1vh 1vw;
+}
+.C_input{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 13vw;
+    align-self: flex-end;
+    align-items: flex-start;
+}
+.Text{
+    width: 20vw;
+    height: 2vh;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #646464;
+    margin: 0vh 4vw 1vh 4vw;
+    outline: none;
+}
+.Number{
+    width: 7vw;
+    height: 2vh;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #646464;
+    margin: 0vh 4vw 1vh 4vw;
+    outline: none;
+}
+.Select{
+    width: 15vw;
+    height: 4vh;
+    background-color: #143168;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #f0f8ff;
+    margin: 0vh 2vw 1vh 4vw;
+}
+.Button{
+    width: 10vw;
+    height: 4vh;
+    color: #f0f8ff;
+    background-color: #183d81;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 0vh 4vw 1vh 4vw; 
+
+}
+.Button:hover{
+cursor: pointer;
+background-color: #143168;
+}
+.Lista{
+    display: flex;
+    flex-direction: column;
+}
+.Itens{
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 0.5em;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+    width: 80vw;
+    height: 8vh;
+    align-self: center;
+}
+.Trash{
+    background-color:transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5em;
+
+}
+.Item{
+    width: 20vw;
+}
