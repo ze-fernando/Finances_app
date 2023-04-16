@@ -140,7 +140,7 @@ background-color: #143168;
 .Item{
     width: 20vw;
 }
-@media screen and (max-width: 750px) {
+@media screen and (min-width: 750px) {
     p{
         font-size: 20px;
     }
