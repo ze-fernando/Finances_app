@@ -40,7 +40,7 @@ function Home(){
     /*Função pra adcionar uma finança*/
     function add_debt(){
         if (number==='' || text===''){
-            alert('Por favor, preencha todas as opções')
+            alert('Por favor, preencha corretamente todas as opções')
         }
         else{
             if (select==='Entrada'){

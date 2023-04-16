@@ -140,7 +140,7 @@ background-color: #143168;
 .Item{
     width: 20vw;
 }
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 700px) {
     p{
         font-size: 20px;
     }
@@ -149,6 +149,17 @@ background-color: #143168;
         height: 9vh;
         width: 5vw;
         }
+    body{
+        --total:#000;
+        overflow-y: auto;
+        background: linear-gradient(to right, #000000, #2b4497);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: sans-serif;
+    }
+
     .Painel{
         display: flex;
         flex-direction: row;
@@ -161,7 +172,7 @@ background-color: #143168;
     .Value{
         background-color: #b3b3b393;
         width: 15vw;
-        height: 5vh;
+        height: 4vh;
         align-self: center;
         margin: 0em 5vw 0em 5vw;
         border-radius: 0.25em;
