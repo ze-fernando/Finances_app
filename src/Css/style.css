@@ -1,7 +1,7 @@
 body{
     --total:#000;
     overflow-y: auto;
-    background: linear-gradient(to right, #000000, #2b4497);
+    background: linear-gradient(to right, #646464, #2b4497);
     display: flex;
     justify-content: center;
     align-items: center;
