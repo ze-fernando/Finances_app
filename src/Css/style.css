@@ -35,15 +35,15 @@ width: 2vw;
     display: flex;
     flex-direction: row;
     background-color: #f0f8ff;
-    width: 85vw;
-    height: 30vh;
+    width: 90vw;
+    height: 15vh;
     border-radius: 1em;
     justify-content: center;
 }
 .Value{
     background-color: #b3b3b393;
     width: 15vw;
-    height: 10vh;
+    height: 5vh;
     align-self: center;
     margin: 0em 5vw 0em 5vw;
     border-radius: 0.25em;
@@ -69,48 +69,50 @@ width: 2vw;
     align-items: flex-start;
 }
 .Text{
-    width: 20vw;
+    width: 22vw;
     height: 2vh;
     text-align: left;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #646464;
-    margin: 0vh 4vw 1vh 4vw;
+    margin: 0vh 2vw 1vh 4vw;
     outline: none;
 }
 .Number{
-    width: 7vw;
+    width: 10vw;
     height: 2vh;
     text-align: left;
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #646464;
-    margin: 0vh 4vw 1vh 4vw;
+    margin: 0vh 2vw 1vh 4vw;
     outline: none;
 }
 .Select{
     width: 15vw;
-    height: 4vh;
+    height: 1.5vh;
     background-color: #143168;
     border: none;
     outline: none;
     border-radius: 5px;
     color: #f0f8ff;
     margin: 0vh 2vw 1vh 4vw;
+    align-self: center;
 }
 .Button{
     width: 10vw;
-    height: 4vh;
+    height: 1.5vh;
     color: #f0f8ff;
     background-color: #183d81;
     border-radius: 5px;
     border: none;
     outline: none;
     margin: 0vh 4vw 1vh 4vw; 
+    align-self: center;
 }
 .Button:hover{
-cursor: pointer;
-background-color: #143168;
+    cursor: pointer;
+    background-color: #143168;
 }
 .Lista{
     width: 100%;
@@ -142,12 +144,12 @@ background-color: #143168;
 }
 @media screen and (min-width: 786px) {
     p{
-        font-size: 20px;
+        font-size: 17px;
     }
     #icon{
         color: #da0000;
-        height: 9vh;
-        width: 5vw;
+        height: 4vh;
+        width: 3vw;
         }
     body{
         --total:#000;
@@ -165,24 +167,24 @@ background-color: #143168;
         flex-direction: row;
         background-color: #ffffff;
         width: 85vw;
-        height: 15vh;
+        height: 30vh;
         border-radius: 1em;
         justify-content: center;
     }
     .Value{
         background-color: #b3b3b393;
         width: 15vw;
-        height: 4vh;
+        height: 10vh;
         align-self: center;
-        margin: 0em 5vw 0em 5vw;
+        margin: 1em 5vw 0em 5vw;
         border-radius: 0.25em;
         font-size: large;
         color: #000;
     }  
 
     .Button{
-        width: 10vw;
-        height: 1.5vh;
+        width: 9vw;
+        height: 3.5vh;
         color: #f0f8ff;
         background-color: #183d81;
         border-radius: 5px;
@@ -193,8 +195,8 @@ background-color: #143168;
         align-items: flex-start;
     }
     .Select{
-        width: 15vw;
-        height: 1.5vh;
+        width: 14vw;
+        height: 3.5vh;
         background-color: #143168;
         border: none;
         outline: none;
@@ -213,6 +215,6 @@ background-color: #143168;
         align-items: center;
         margin-bottom: 2vh;
         width: 85vw;
-        height: 5vh;
+        height: 8vh;
     }
 }
