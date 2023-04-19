@@ -1,5 +1,5 @@
-body{
-    --total:#000;
+body {
+    --total: #000;
     overflow-y: auto;
     background: linear-gradient(to right, #1d1d1d, #2b4497);
     display: flex;
@@ -7,68 +7,68 @@ body{
     align-items: center;
     flex-direction: column;
     font-family: sans-serif;
-}
-h1{
+  }
+  h1 {
     position: absolute;
     justify-content: center;
-}
-p{
+  }
+  p {
     margin-top: 1vh;
     margin-bottom: 1vh;
-    }
-#total{
+  }
+  #total {
     color: var(--total);
-}
-#icon{
-color: #da0000;
-height: 4vh;
-width: 2vw;
-}
-.Container{
+  }
+  #icon {
+    color: #da0000;
+    height: 4vh;
+    width: 2vw;
+  }
+  .Container {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.Painel{
+  }
+  .Painel {
     display: flex;
     flex-direction: row;
     background-color: #f0f8ff;
     width: 90vw;
-    height: 15vh;
+    height: 30vh;
     border-radius: 1em;
     justify-content: center;
-}
-.Value{
+  }
+  .Value {
     background-color: #b3b3b393;
     width: 15vw;
-    height: 5vh;
+    height: 11vh;
     align-self: center;
     margin: 0em 5vw 0em 5vw;
     border-radius: 0.25em;
     font-size: large;
     color: #000;
-}
-.Name{
+  }
+  .Name {
     text-align: left;
     margin-top: 0;
     margin-left: 1vw;
     color: #3d3d3d;
     font-size: 15px;
-}
-.Money{
+  }
+  .Money {
     margin: 0 0 1vh 1vw;
-}
-.C_input{
+  }
+  .C_input {
     display: flex;
     flex-direction: row;
     position: absolute;
     left: 13vw;
     align-self: flex-end;
     align-items: flex-start;
-}
-.Text{
+  }
+  .Text {
     width: 22vw;
     height: 2vh;
     text-align: left;
@@ -77,8 +77,8 @@ width: 2vw;
     border-bottom: 1px solid #646464;
     margin: 0vh 2vw 1vh 4vw;
     outline: none;
-}
-.Number{
+  }
+  .Number {
     width: 10vw;
     height: 2vh;
     text-align: left;
@@ -87,10 +87,10 @@ width: 2vw;
     border-bottom: 1px solid #646464;
     margin: 0vh 2vw 1vh 4vw;
     outline: none;
-}
-.Select{
+  }
+  .Select {
     width: 15vw;
-    height: 1.5vh;
+    height: 3vh;
     background-color: #143168;
     border: none;
     outline: none;
@@ -98,29 +98,29 @@ width: 2vw;
     color: #f0f8ff;
     margin: 0vh 2vw 1vh 4vw;
     align-self: center;
-}
-.Button{
+  }
+  .Button {
     width: 10vw;
-    height: 1.5vh;
+    height: 3vh;
     color: #f0f8ff;
     background-color: #183d81;
     border-radius: 5px;
     border: none;
     outline: none;
-    margin: 0vh 4vw 1vh 4vw; 
+    margin: 0vh 4vw 1vh 4vw;
     align-self: center;
-}
-.Button:hover{
+  }
+  .Button:hover {
     cursor: pointer;
     background-color: #143168;
-}
-.Lista{
+  }
+  .Lista {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-}
-.Itens{
+  }
+  .Itens {
     background-color: #ffffff;
     display: flex;
     border-radius: 0.5em;
@@ -130,91 +130,268 @@ width: 2vw;
     margin-bottom: 2vh;
     width: 85vw;
     height: 8vh;
-}
-.Trash{
-    background-color:transparent;
+  }
+  .Trash {
+    background-color: transparent;
     outline: none;
     border: none;
     cursor: pointer;
     border-radius: 0.5em;
-
-}
-.Item{
+  }
+  .Item {
     width: 20vw;
-}
-@media screen and (min-width: 786px) {
-    p{
-        font-size: 17px;
+  }
+  @media (min-height: 1000px) {
+    p {
+      font-size: auto;
     }
-    #icon{
-        color: #da0000;
-        height: 4vh;
-        width: 3vw;
-        }
-    body{
-        --total:#000;
-        overflow-y: auto;
-        background: linear-gradient(to right, #222222, #2b4497);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        font-family: sans-serif;
+    #icon {
+      color: #da0000;
+      height: 4vh;
+      width: 3vw;
     }
-
-    .Painel{
-        display: flex;
-        flex-direction: row;
-        background-color: #ffffff;
-        width: 85vw;
-        height: 30vh;
-        border-radius: 1em;
-        justify-content: center;
+    body {
+      --total: #000;
+      overflow-y: auto;
+      background: linear-gradient(to right, #222222, #2b4497);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: sans-serif;
     }
-    .Value{
-        background-color: #b3b3b393;
-        width: 15vw;
-        height: 10vh;
-        align-self: center;
-        margin: 1em 5vw 0em 5vw;
-        border-radius: 0.25em;
-        font-size: large;
-        color: #000;
-    }  
-
-    .Button{
-        width: 9vw;
-        height: 3.5vh;
-        color: #f0f8ff;
-        background-color: #183d81;
-        border-radius: 5px;
-        border: none;
-        outline: none;
-        margin: 0vh 4vw 0.5vh 4vw;
-        align-self: flex-end;
-        align-items: flex-start;
+    .Painel {
+      display: flex;
+      flex-direction: row;
+      background-color: #ffffff;
+      width: 85vw;
+      height: 20vh;
+      border-radius: 1em;
+      justify-content: center;
     }
-    .Select{
-        width: 14vw;
-        height: 3.5vh;
-        background-color: #143168;
-        border: none;
-        outline: none;
-        border-radius: 5px;
-        color: #f0f8ff;
-        margin: 0vh 1vw 0.5vh 4vw;
-        align-self: flex-end;
-        align-items: flex-start;
+    .Value {
+      background-color: #b3b3b393;
+      width: 15vw;
+      height: 5vh;
+      align-self: center;
+      margin: 1em 5vw 0em 5vw;
+      border-radius: 0.25em;
+      font-size: large;
+      color: #000;
     }
-    .Itens{
-        background-color: #ffffff;
-        display: flex;
-        border-radius: 0.5em;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 2vh;
-        width: 85vw;
-        height: 8vh;
+  
+    .Button {
+      width: 13vw;
+      height: 1.5vh;
+      color: #f0f8ff;
+      background-color: #182381;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      margin: 0vh 4vw 0.5vh 2vw;
+      align-self: flex-end;
+      align-items: flex-start;
+      font-size: 12px;
     }
-}
+    .Select {
+      width: 14vw;
+      height: 1.5vh;
+      background-color: #143168;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      color: #f0f8ff;
+      margin: 0vh 1vw 0.5vh 2vw;
+      align-self: flex-end;
+      align-items: flex-start;
+      font-size: 12px;
+    }
+    .Itens {
+      background-color: #ffffff;
+      display: flex;
+      border-radius: 0.5em;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2vh;
+      width: 85vw;
+      height: 8vh;
+    }
+  }
+  @media (max-height: 600px) {
+    p {
+      font-size: auto;
+    }
+    #icon {
+      color: #da0000;
+      height: 4vh;
+      width: 3vw;
+    }
+    body {
+      --total: #000;
+      overflow-y: auto;
+      background: linear-gradient(to right, #222222, #2b4497);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: sans-serif;
+    }
+  
+    .Painel {
+      display: flex;
+      flex-direction: row;
+      background-color: #ffffff;
+      width: 85vw;
+      height: 30vh;
+      border-radius: 1em;
+      justify-content: center;
+    }
+    .Value {
+      background-color: #b3b3b393;
+      width: 15vw;
+      height: 10vh;
+      align-self: center;
+      margin: 1em 5vw 0em 5vw;
+      border-radius: 0.25em;
+      font-size: large;
+      color: #000;
+    }
+  
+    .Button {
+      width: 13vw;
+      height: 3.5vh;
+      color: #f0f8ff;
+      background-color: #183d81;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      margin: 0vh 4vw 0.5vh 2vw;
+      align-self: flex-end;
+      align-items: flex-start;
+      font-size: 12px;
+    }
+    .Select {
+      width: 14vw;
+      height: 3.5vh;
+      background-color: #143168;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      color: #f0f8ff;
+      margin: 0vh 1vw 0.5vh 2vw;
+      align-self: flex-end;
+      align-items: flex-start;
+      font-size: 12px;
+    }
+    .Itens {
+      background-color: #ffffff;
+      display: flex;
+      border-radius: 0.5em;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2vh;
+      width: 85vw;
+      height: 8vh;
+    }
+  }
+  @media (max-width: 600px) {
+    p {
+      font-size: 15px;
+    }
+    h1 {
+      font-size: 20px;
+    }
+    #icon {
+      color: #da0000;
+      height: 4vh;
+      width: 3vw;
+    }
+    body {
+      --total: #000;
+      overflow-y: auto;
+      background: linear-gradient(to right, #222222, #2b4497);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: sans-serif;
+    }
+  
+    .Painel {
+      display: flex;
+      flex-direction: row;
+      background-color: #ffffff;
+      width: 95vw;
+      height: 30vh;
+      border-radius: 8px;
+      justify-content: center;
+    }
+    .Value {
+      background-color: #b3b3b393;
+      width: 30vw;
+      height: 10vh;
+      align-self: center;
+      margin: 1em 5vw 0em 5vw;
+      border-radius: 0.25em;
+      font-size: large;
+      color: #000;
+    }
+  
+    .Button {
+      width: 20vw;
+      height: 3.5vh;
+      color: #183d81;
+      background-color: #182381;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      margin: 0vh 4vw 0.5vh 2vw;
+      align-self: flex-end;
+      align-items: flex-start;
+      font-size: 12px;
+    }
+    .Select {
+      width: 20vw;
+      height: 3.5vh;
+      background-color: #143168;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      color: #f0f8ff;
+      margin: 0vh 1vw 0.5vh 2vw;
+      align-self: flex-end;
+      align-items: flex-start;
+      font-size: 12px;
+    }
+    .Itens {
+      background-color: #ffffff;
+      display: flex;
+      border-radius: 0.5em;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2vh;
+      width: 85vw;
+      height: 8vh;
+    }
+    .C_input {
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      left: 1vw;
+      align-self: flex-end;
+      align-items: flex-start;
+    }
+    .Number {
+      width: 15vw;
+      height: 2vh;
+      text-align: left;
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid #646464;
+      margin: 0vh 2vw 1vh 2vw;
+      outline: none;
+    }
+  }
