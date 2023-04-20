@@ -142,9 +142,6 @@ body {
     width: 20vw;
   }
   @media (min-height: 1000px) {
-    p {
-      font-size: auto;
-    }
     #icon {
       color: #da0000;
       height: 4vh;
@@ -160,32 +157,41 @@ body {
       flex-direction: column;
       font-family: sans-serif;
     }
+    p {
+      font-size: 23px;
+    }
+    input{
+      font-size: 20px;
+    }
     .Painel {
       display: flex;
       flex-direction: row;
       background-color: #ffffff;
-      width: 85vw;
-      height: 20vh;
+      width: 90vw;
+      height: 15vh;
       border-radius: 1em;
       justify-content: center;
     }
     .Value {
       background-color: #b3b3b393;
       width: 15vw;
-      height: 5vh;
+      height: 3.5vh;
       align-self: center;
       margin: 1em 5vw 0em 5vw;
       border-radius: 0.25em;
       font-size: large;
       color: #000;
     }
+    .Value p{
+      font-size: 22px;
+    }
   
     .Button {
       width: 13vw;
       height: 1.5vh;
       color: #f0f8ff;
-      background-color: #182381;
-      border-radius: 5px;
+      background-color: #143168;
+      border-radius: 8px;
       border: none;
       outline: none;
       margin: 0vh 4vw 0.5vh 2vw;
@@ -199,7 +205,7 @@ body {
       background-color: #143168;
       border: none;
       outline: none;
-      border-radius: 5px;
+      border-radius: 8px;
       color: #f0f8ff;
       margin: 0vh 1vw 0.5vh 2vw;
       align-self: flex-end;
@@ -215,7 +221,32 @@ body {
       align-items: center;
       margin-bottom: 2vh;
       width: 85vw;
-      height: 8vh;
+      height: 5vh;
+    }
+    .Number{
+      width: 12vw;
+      margin: 0vh 1vw 0.5vh 1vw;
+      height: 2vh;
+      text-align: left;
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid #646464;
+      outline: none;
+    }
+    .Text{
+    width: 22vw;
+    height: 2vh;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #646464;
+    margin: 0vh 2vw 1vh 4vw;
+    outline: none;
+  }
+    .Button, .Select{
+      font-size: 20px;
+      width: 140px;
+      height: 45px;
     }
   }
   @media (max-height: 600px) {
