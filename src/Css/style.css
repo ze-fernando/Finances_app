@@ -175,7 +175,7 @@ body {
     .Value {
       background-color: #b3b3b393;
       width: 15vw;
-      height: 3.5vh;
+      height: 4.5vh;
       align-self: center;
       margin: 1em 5vw 0em 5vw;
       border-radius: 0.25em;
@@ -184,6 +184,7 @@ body {
     }
     .Value p{
       font-size: 22px;
+      margin-top: 6px;
     }
   
     .Button {
@@ -198,6 +199,7 @@ body {
       align-self: flex-end;
       align-items: flex-start;
       font-size: 12px;
+      text-align: center;
     }
     .Select {
       width: 14vw;
@@ -211,6 +213,7 @@ body {
       align-self: flex-end;
       align-items: flex-start;
       font-size: 12px;
+      text-align: center;
     }
     .Itens {
       background-color: #ffffff;
@@ -219,7 +222,7 @@ body {
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      margin-bottom: 2vh;
+      margin-bottom: 25px;
       width: 85vw;
       height: 5vh;
     }
@@ -252,6 +255,9 @@ body {
   @media (max-height: 600px) {
     p {
       font-size: auto;
+    }
+    h1{
+      margin-bottom: 2px;
     }
     #icon {
       color: #da0000;
