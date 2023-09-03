@@ -1,8 +1,13 @@
-# Financial control made by ReactJs
+# Finances
 
-## You can test here https://ze-fernando.github.io/finances_app/
+## Functions
+*insert debt
+*enter the earnings
+*automatic calculation
+*delete debt
 
-## ⚠️ATTENTION⚠️
-### MERELY ILLUSTRATIVE WEBSITE, YOUR INFORMATION WILL NOT BE SAVED⚠
+[Test app](https://ze-fernando.github.io/finances_app/)
 
-### By José Fernando
+
+[!IMPORTANT]
+[App no have localstorage, or data base]
