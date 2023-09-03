@@ -11,4 +11,4 @@
 
 
 [!IMPORTANT]
-[App no have localstorage, or data base]
+> App no have localstorage, or data base
