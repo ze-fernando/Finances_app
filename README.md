@@ -7,7 +7,8 @@
 * automatic calculation
 * delete debt
 
-[Test app](https://ze-fernando.github.io/finances_app/)
+## You can test app
+[Here](https://ze-fernando.github.io/finances_app/)
 
 
 > [!IMPORTANT]
