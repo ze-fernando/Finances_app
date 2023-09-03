@@ -2,10 +2,10 @@
 
 ## Functions
 
-* insert debt
-* enter the earnings
-* automatic calculation
-* delete debt
+* Insert debt
+* Enter the earnings
+* Automatic calculation
+* Delete debt
 
 ## You can test app
 [Here](https://ze-fernando.github.io/finances_app/)
